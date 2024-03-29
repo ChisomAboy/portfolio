@@ -1,0 +1,39 @@
+:root {
+    --body-color:#f5f5f5;
+    --white:white;
+    --main-color: #ffffff;
+    --second-color: #000414;;
+    --third-color: #47b5ff;
+    --shadow-1: #00000016;
+    --shadow-2: #00000030;
+    --alternative-color: #6d6d6d;
+    --text-color-1: #202020;
+    --text-color-2: #747474;
+    --text-color-3: #bbbbbb;
+    --text-color-4: #000000;
+
+     /* FORM-ROOT */
+     /* --text-color: #000000;
+     --text-input: #c7c7c7;
+     --text-input-1: #494042;
+     --background-shadow: rgb(247, 38, 38);
+     --button-color: #d81616;
+     --border-1:  #ff0000;
+     --shadow-2:  #f53c3c;
+     --side-color: #fac5c5;
+     --side-color-1: #ec9d9d; */
+    /* ENDING-OF-FORM-ROOT */
+ 
+}
+.dark-mode {
+    --body-color: #090222;
+    --main-color: #130d33;
+    --second-color: #000414;
+    --third-color: #47b5ff;
+    --shadow-1: #090210;
+    --shadow-2: #000000d2;
+    --alternative-color: #c0c0c0;
+    --text-color-1: #ffffff;
+    --text-color-2: #aecf63;
+    --text-color-4: #ffffff;
+}

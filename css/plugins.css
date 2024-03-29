@@ -1,0 +1,129 @@
+.container {
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.left {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.right {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.space-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.space-around {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.justify{
+    display: flex;
+    justify-content: space-between;
+    align-items: justify;
+}
+.button1 {
+    background: var(--third-color);
+    color: var(--main-color);
+    border: 0;
+    border-radius: 5px;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    padding: 3px 10px;
+}
+.button1:hover {
+    background: #ff4b4b;
+}
+.heading1 {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--text-color-1);
+    padding-bottom: 10px;
+}
+.session-heading1,
+.session-heading2 {
+    font-size: 25px;
+    font-weight: 300;
+    color: var(--text-color-1);
+    margin-bottom: 30px;
+    padding-bottom: 5px;
+    /* padding-left: 10px; */
+    position: relative;
+}
+.session-heading1 {
+    color: var(--text-color-1);
+}
+.session-heading2 {
+    color: var(--main-color);
+}
+.session-heading1:before,
+.session-heading2:before {
+    position: absolute;
+    content: "";
+    height: 6px;
+    width: 45px;
+    transform: skewX(-30deg);
+    /* border-radius: 10px; */
+    background: var(--third-color);
+    bottom: 0;
+    /* left: 10px; */
+}
+.session-heading1 span,
+.session-heading2 span {
+    font-weight: 600;
+    font-family: "Arial Black";
+    text-transform: uppercase;
+}
+.session-heading2 span {
+    color: var(--third-color);
+}
+.spacer-100 {
+    content: "";
+    min-height: 1000vh; 
+}
+.session-text p{
+    color: var(--text-color-1);
+    font-size: 15px;
+}
+@media only screen and (max-width :960px) {
+    .container {
+        width: 100%;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+}
+@media only screen and (max-width :800px) {
+    .container {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media only screen and (max-width :720px) {
+    .container {
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .justify{
+    display: block;
+    }
+    .session-text p{
+        text-align: center;
+    }
+    
+
+}
+
