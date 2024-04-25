@@ -4,61 +4,629 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chisom Profolio</title>
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/colors.css">
+    <link rel="stylesheet" href="css/main2.css">
+    <link rel="stylesheet" href="css/roots.css">
     <link rel="stylesheet" href="css/plugins.css">
     <link rel="stylesheet" href="fontawesome-free-6.4.0-web/css/all.css">
-    <link rel="stylesheet" href="fontawesome-free-6.4.0-web/css/all.min.css">
+    <link rel="stylesheet" href="boxicons/css/boxicons.min.css">
+    <link rel="shortcut icon" href="img/my-logo.png" type="image/x-icon">
+    <title>Chisom's Portfolio</title>
     <style>
-        .header-wrapper {
-            background:linear-gradient(#000000f5,#000000f5), url(img/pexels-christina-morillo-1181467.jpg);
-            height: 95vh;
-            width: 100%;
+        .hero {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('img/pexels-cottonbro-studio-5052875.jpg');
+            /* background-color: #f5f5f5; */
             background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center center;
-            margin: 0;
-            padding-top: 10px;
-            position: relative;
+            background-position: center;
         }
     </style>
 </head>
 
 <body>
     <div id="wrapper">
-        <div class="header-wrapper">
-            <header class="space-between">
-                <div class="logo">
-                    <h2>Chisom <br> <span>Portfolio</span></h2>
+        <!-- header starts here -->
+        <header class="header space-between container">
+            <!-- logo -->
+            <div class="logo left">
+                <img src="img/my-logo.png" id="logo" alt="">
+                <p class="company-name">Chisom Paul's Portfolio</p>
+            </div>
+
+            <!-- nav -->
+            <nav class="nav">
+                <ul class="space-between">
+                    <li><a class="active" href="#Home">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#Testimonials">Testimonials</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav2">
+                .
+            </div>
+            <div class="bx bx-moon " id="darkmode"></div>
+            <!-- <div class="bx bx-sun darkmode"></div> -->
+        </header>
+        <section class="hero" id="Home">
+            <div class="hero-div space-between container">
+                <div class="hero-text">
+                    <p class="hero-info1">Hi There! My name is</p>
+                    <p class="page-title">Bartholomew <span>Chisom</span></p>
+                    <p class="hero-info">I am a <span class="occupation">Full-Stack Web Developer</span></p>
+                    <button class="button">Hire Me</button>
                 </div>
-                <nav>
-                    <ul>
-                        <li><a href="#"><i class="fa fa-home-alt"></i>Home</a></li>
-                        <li><a href="#"><i  class="fa fa-user"></i>About Me</a></li>
-                        <li><a href="#"><i class="fa fa-skills"></i>My Skills Set</a></li>
-                        <li><a href="#"><i class="fa fa-projects"></i>Projects</a></li> 
-                        <li><a href="#"><i class="fa fa-contact-book"></i>Contact</a></li>
-                    </ul>
-                </nav>
-            </header>
-            <div class="container space-between">
-                <div class="title">
-                    <p>Hi there, My name is </p>
-                    <h2>Bartholomew Chisom</h2>
-                    <p>and i am a <span class="occupation"></span></p>
-                </div>
-                <div class="title-image">
-                    
+                <div class="hero-img">
+                    <img src="img/pexels-andrew-dick-697509.jpg" alt="" width="100%">
                 </div>
             </div>
-        </div>
-        <div class="svg-container">
-            <svg class="Border_svg" fill="none" preserveAspectRatio="none" viewBox="0 0 1680 40" style="bottom:-1px">
-                <path d="M0 40h1680V30S1340 0 840 0 0 30 0 30z" fill="#fff"></path>
-            </svg>
+        </section>
+        <section class="about-container" id="About">
+            <div class="container">
+                <div class="session-heading1">
+                    <p><span>About</span></p>
+                </div>
+                <div class="justify">
+                    <div class="about-img">
+                        <img src="img/pexels-vlada-karpovich-4050288.jpg" alt="" width="100%">
+                    </div>
+                    <div class="about-text">
+                        <p class="sub">Who am i?</p>
+                        <h3>Hey i am Bartholomew Chisom Paul a Full-Stack Web Developer.</h3>
+                        <p class="sub-title">18 years old from Lagos, Nigeria </p>
+                        <p>I am passionate web developer with a flair for crafting immersive
+                            online experiences. With a blend of creativity and technical expertise, I thrive on turning
+                            ideas into polished, functional websites that leave a lasting impression. <br>
+
+                            My journey in web development began with a fascination for coding and a drive to bring
+                            visions to life in the digital realm. Over time, I've honed my skills in front-end and
+                            back-end development, mastering languages like HTML, CSS, JavaScript, and PHP, among others.
+                            Whether it's designing sleek user interfaces or optimizing website performance, I take pride
+                            in delivering solutions that exceed expectations.</p>
+                        <button>download cv</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="skills" id="Skills">
+            <div class="container">
+                <div class="session-heading1">
+                    <p><span>Skills</span></p>
+                </div>
+                <div class="skills-container space-between">
+                    <div class="techskills">
+                        <div class="session-heading">
+                            <p><span>Technical Skills</span></p>
+                        </div>
+                        <div class="tech-div">
+                            <div class="tech">
+                                <div class="tech-top space-between">
+                                    <div class="tech-name ">
+                                        <p>HTML</p>
+                                    </div>
+                                    <div class="tech-value">
+                                        <p>85%</p>
+                                    </div>
+                                </div>
+                                <div class="tech-progress">
+
+                                </div>
+                            </div>
+                            <div class="tech">
+                                <div class="tech-top space-between">
+                                    <div class="tech-name ">
+                                        <p>CSS</p>
+                                    </div>
+                                    <div class="tech-value">
+                                        <p>90%</p>
+                                    </div>
+                                </div>
+                                <div class="tech-progress">
+
+                                </div>
+                            </div>
+                            <div class="tech">
+                                <div class="tech-top space-between">
+                                    <div class="tech-name ">
+                                        <p>JavaScript</p>
+                                    </div>
+                                    <div class="tech-value">
+                                        <p>70%</p>
+                                    </div>
+                                </div>
+                                <div class="tech-progress">
+
+                                </div>
+                            </div>
+                            <div class="tech">
+                                <div class="tech-top space-between">
+                                    <div class="tech-name ">
+                                        <p>PHP</p>
+                                    </div>
+                                    <div class="tech-value">
+                                        <p>80%</p>
+                                    </div>
+                                </div>
+                                <div class="tech-progress">
+
+                                </div>
+                            </div>
+                            <div class="tech">
+                                <div class="tech-top space-between">
+                                    <div class="tech-name ">
+                                        <p>MYSQL</p>
+                                    </div>
+                                    <div class="tech-value">
+                                        <p>75%</p>
+                                    </div>
+                                </div>
+                                <div class="tech-progress">
+
+                                </div>
+                            </div>
+                            <div class="tech">
+                                <div class="tech-top space-between">
+                                    <div class="tech-name ">
+                                        <p>WordPress</p>
+                                    </div>
+                                    <div class="tech-value">
+                                        <p>70%</p>
+                                    </div>
+                                </div>
+                                <div class="tech-progress">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="soft-skills">
+                        <div class="session-heading">
+                            <p><span>Professional Skills</span></p>
+                        </div>
+                        <div class="softskilldiv">
+                            <div class="skill-box space-between">
+                                <div class="skill">
+                                    <p>Teamwork</p>
+                                </div>
+                                <div class="skill">
+                                    <p>Critical Thinking</p>
+                                </div>
+                            </div>
+                            <div class="skill-box space-between">
+                                <div class="skill">
+                                    <p>Effective Communication</p>
+                                </div>
+                                <div class="skill">
+                                    <p>Collaboation</p>
+                                </div>
+                            </div>
+                            <div class="skill-box space-between">
+                                <div class="skill">
+                                    <p>Teamwork</p>
+                                </div>
+                                <div class="skill">
+                                    <p>Critical Thinking</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="services-container" id="Services">
+            <div class="container">
+                <div class="session-heading1">
+                    <p><span>Services</span></p>
+                </div>
+                <div class="grid">
+                    <div class="service-box">
+                        <div class="service-img">
+                            <img src="" alt="">
+                            <i class="bx bx-image"></i>
+                        </div>
+                        <div class="service-head">
+                            <h3>Web Design</h3>
+                        </div>
+                        <div class="service-text">
+                            <p>Elevate your online brand with personalized web design solutions crafted to reflect your
+                                unique identity and goals. From sleek layouts to seamless user experiences, I specialize
+                                in creating websites that captivate and convert. Let's collaborate to bring your digital
+                                vision to life and leave a lasting impression on your audience.</p>
+                        </div>
+                    </div>
+                    <div class="service-box">
+                        <div class="service-img">
+                            <img src="" alt="">
+                            <i class="fa fa-tools"></i>
+                        </div>
+                        <div class="service-head">
+                            <h3>Web Development</h3>
+                        </div>
+                        <div class="service-text">
+                            <p>"Unlock the full potential of your online presence with bespoke web development solutions
+                                tailored to your unique objectives. From robust backend functionality to seamless user
+                                interfaces, I specialize in crafting dynamic websites that drive results. Let's
+                                collaborate to turn your digital aspirations into reality and propel your business
+                                forward in the digital landscape.</p>
+                        </div>
+                    </div>
+                    <div class="service-box">
+                        <div class="service-img">
+                            <img src="" alt="">
+                            <i class="fa fa-heart"></i>
+                        </div>
+                        <div class="service-head">
+                            <h3>Website Maintaince and Support</h3>
+                        </div>
+                        <div class="service-text">
+                            <p>Experience seamless resolution to your web development challenges with our dedicated
+                                customer service. From troubleshooting technical issues to providing timely updates, we
+                                specialize in ensuring your online platform operates smoothly. Let us be your reliable
+                                partner in addressing any web development concerns, so you can focus on achieving your
+                                digital goals hassle-free."</p>
+                        </div>
+                    </div>
+                    <div class="service-box">
+                        <div class="service-img">
+                            <img src="" alt="">
+                            <i class="fa fa-rocket"></i>
+                        </div>
+                        <div class="service-head">
+                            <h3>Web Hosting</h3>
+                        </div>
+                        <div class="service-text">
+                            <p>Experience reliable and efficient web hosting solutions tailored to your needs. From
+                                secure data storage to seamless website performance, we specialize in providing a stable
+                                online presence for your business. Let us handle the technicalities so you can focus on
+                                what matters most – growing your online presence.</p>
+                        </div>
+                    </div>
+                    <div class="service-box">
+                        <div class="service-img">
+                            <!-- <img src="" alt=""> -->
+                            <!-- <i class="fa fa-image"></i> -->
+                            <h4>WP</h4>
+                        </div>
+                        <div class="service-head">
+                            <h3>WordPress Development</h3>
+                        </div>
+                        <div class="service-text">
+                            <p>Transform your digital presence with expert WordPress development solutions customized to
+                                your unique requirements. From intuitive website design to robust plugin integration, we
+                                specialize in harnessing the power of WordPress to create engaging online experiences.
+                                Let us bring your vision to life and empower you to stand out in the crowded online
+                                landscape.</p>
+                        </div>
+                    </div>
+                    <div class="service-box">
+                        <div class="service-img">
+                            <img src="" alt="">
+                            <i class="fa fa-angles-up"></i>
+                        </div>
+                        <div class="service-head">
+                            <h3>Search Engine Optmization(SEO)</h3>
+                        </div>
+                        <div class="service-text">
+                            <p>"Maximize your online visibility and drive targeted traffic to your website with our
+                                expert Search Engine Optimization (SEO) services. From strategic keyword optimization to
+                                technical website enhancements, we specialize in boosting your search engine rankings
+                                and increasing organic traffic. Let us optimize your online presence and help you reach
+                                your digital marketing goals effectively.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="projects-container" id="Projects">
+            <div class="container">
+                <div class="session-heading1">
+                    <p><span>Portfolio</span></p>
+                </div>
+                <div class="session-text">
+                    <p>Welcome to my portfolio! Explore my diverse projects showcasing passion, proficiency, and
+                        dedication to excellence</p>
+                </div>
+                <div class="porfolio-selectors">
+                    <div class="selector">
+                        <p>All</p>
+                    </div>
+                    <div class="selector">
+                        <p>Web Design</p>
+                    </div>
+                    <div class="selector">
+                        <p>Web Development</p>
+                    </div>
+                    <div class="selector">
+                        <p>Wordpress</p>
+                    </div>
+                </div>
+                <div class="grid2">
+                    <div class="grid-row row1">
+                        <div class="portfolio-box">
+                            <div class="portfolio-img">
+                                <img src="img/Screenshot_26-3-2024_162413_codecrafter.com.ng.jpeg  " alt=""
+                                    width="100%">
+                            </div>
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-overlay-head">
+                                    <h4>CodeCrafters Solution</h4>
+                                </div>
+                                <div class="portfolio-overlay-text">
+                                    <p>I built a website for learning and teaching tech skills online to students of all
+                                        ages. This website was built using WordPress </p>
+                                </div>
+                                <div class="portfolio-overlay-button">
+                                    <a href="https://codecrafter.com.ng" target="_blank">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-box">
+                            <div class="portfolio-img">
+                                <img src="img/pexels-rubaitul-azad-12812698.jpg" alt="" width="100%">
+                            </div>
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-overlay-head">
+                                    <h4>Ann's Blog Website</h4>
+                                </div>
+                                <div class="portfolio-overlay-text">
+                                    <p>I built a blog website for a friend using HTML, CSS, JavaScript, PHP and MySQL.
+                                    </p>
+                                </div>
+                                <div class="portfolio-overlay-button">
+                                    <button>View Project</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-row row2">
+                        <div class="portfolio-box">
+                            <div class="portfolio-img">
+                                <img src="img/pexels-pixabay-262508.jpg" alt="" width="100%">
+                            </div>
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-overlay-head">
+                                    <h4>Code Crafter</h4>
+                                </div>
+                                <div class="portfolio-overlay-text">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, soluta!</p>
+                                </div>
+                                <div class="portfolio-overlay-button">
+                                    <button>View Project</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-box">
+                            <div class="portfolio-img">
+                                <img src="img/pexels-monoar-rahman-114907.jpg" alt="" width="100%">
+                            </div>
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-overlay-head">
+                                    <h4>Code Crafter</h4>
+                                </div>
+                                <div class="portfolio-overlay-text">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, soluta!</p>
+                                </div>
+                                <div class="portfolio-overlay-button">
+                                    <button>View Project</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-row row3">
+                        <div class="portfolio-box">
+                            <div class="portfolio-img">
+                                <img src="img/pexels-realtoughcandycom-11035371.jpg" alt="" width="100%">
+                            </div>
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-overlay-head">
+                                    <h4>Mercy's Blog </h4>
+                                </div>
+                                <div class="portfolio-overlay-text">
+                                    <p>As part of my Pratical Projects for Wordpress, i created ablog website using a
+                                        theme customised from Wordpress</p>
+                                </div>
+                                <div class="portfolio-overlay-button">
+                                    <button>View Project</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-box">
+                            <div class="portfolio-img">
+                                <img src="img/pexels-christina-morillo-1181244.jpg" alt="" width="100%">
+                            </div>
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-overlay-head">
+                                    <h4>Vehicle Management System</h4>
+                                </div>
+                                <div class="portfolio-overlay-text">
+                                    <p>This is a project that i am currently working on. It is a website that allows
+                                        fleet owners to managing the vehicles, mechanics and
+                                        other workers in their comapny. It also contains a section that allows customers to buy
+                                        or rent vechicles, repair their borken cars and schedule other maintainance
+                                        services</p>
+                                </div>
+                                <div class="portfolio-overlay-button">
+                                    <button>View Project</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="testmonial2" id="Testimonials">
+            <div class="container">
+                <div class="session-heading1">
+                    <p><span>Testimonials</span></p>
+                </div>
+                <div class="session-text">
+                    <p>See what my past clients think of me</p>
+                </div>
+                <div class="grid-3 ">
+                    <div class="testimonial-box1 container">
+                        <div class="box1 fade">
+                            <div class="space-between">
+                                <div class="img-box">
+                                    <div class="testimonial-img1">
+                                        <div class="img-container">
+                                            <img src="img/3.jpg" alt="" width="100%">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonial-text1">
+                                    <div class="quote1 left">
+                                        <i class="bx bxs-quote-alt-left"></i>
+                                    </div>
+                                    <div class="testimonial-texta">
+                                        <p>Working with Chisom has been an absolute pleasure. His expertise and
+                                            attention to detail transformed our vision into a stunning reality. From the
+                                            initial concept to the final product, he exhibited professionalism and
+                                            creativity, delivering a website that exceeded our expectations. Their
+                                            dedication to excellence and seamless communication made the entire process
+                                            a breeze. I highly recommend Chisom to anyone seeking
+                                            top-notch web development services.</p>
+                                    </div>
+                                    <div class="quote1 right">
+                                        <i class="bx bxs-quote-alt-right"></i>
+                                    </div>
+                                    <div class="testimonial-name">
+                                        <div class="name">
+                                            <p>Elvis Malogo</p>
+                                        </div>
+                                        <div class="location">
+                                            <p>Kosofe, Lagos, Nigeria </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box1 fade">
+                            <div class="space-between">
+                                <div class="img-box">
+                                    <div class="testimonial-img1">
+                                        <div class="img-container">
+                                            <img src="img/6.jpg" alt="" width="100%">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonial-text1">
+                                    <div class="quote1 left">
+                                        <i class="bx bxs-quote-alt-left"></i>
+                                    </div>
+                                    <div class="testimonial-texta">
+                                        <p>Wow, I can't say enough good things about Chisom and his web
+                                            development skills! He took our website idea and turned it into something
+                                            truly amazing. His creativity and dedication shine through every pixel of
+                                            the site. Plus, working with them was a blast – they made the process smooth
+                                            and fun. If you need a website, Chisom is definitely the one to
+                                            call!</p>
+                                    </div>
+                                    <div class="quote1 right">
+                                        <i class="bx bxs-quote-alt-right"></i>
+                                    </div>
+                                    <div class="testimonial-name">
+                                        <div class="name">
+                                            <p>Nwoke Chidi</p>
+                                        </div>
+                                        <div class="location">
+                                            <p>Ikorodu, Lagos, Nigeria </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box1 fade">
+                            <div class="space-between">
+                                <div class="img-box">
+                                    <div class="testimonial-img1">
+                                        <div class="img-container">
+                                            <img src="img/8.jpg" alt="" width="100%">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonial-text1 fade">
+                                    <div class="quote1 left">
+                                        <i class="bx bxs-quote-alt-left"></i>
+                                    </div>
+                                    <div class="testimonial-texta">
+                                        <p>Having Chisom on our team was an absolute game-changer. Their
+                                            passion for web development and eagerness to learn brought fresh energy to
+                                            our projects. Throughout their internship, they impressed us with their
+                                            creativity, problem-solving skills, and dedication to excellence. From
+                                            tackling complex tasks to suggesting innovative ideas, Chisom
+                                            exceeded our expectations at every turn. It was a pleasure mentoring them,
+                                            and I have no doubt they'll go far in their career.</p>
+                                    </div>
+                                    <div class="quote1 right">
+                                        <i class="bx bxs-quote-alt-right"></i>
+                                    </div>
+                                    <div class="testimonial-name">
+                                        <div class="name">
+                                            <p>GlobalTech Comuter Institue</p>
+                                        </div>
+                                        <div class="location">
+                                            <p>Ebute, Lagos, Nigeria </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact-container" id="Contact">
+            <div class="container">
+                <div class="session-heading1">
+                    <p><span>Contact Me</span></p>
+                </div>
+                <div class="session-text">
+                    <p>Contact me on the social media platforms listed below or send a message through the form</p>
+                </div>
+                <div class="contact-form">
+                    <div class="contact-icons">
+                        <ul>
+                            <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href=""><i class="fab fa-whatsapp"></i></a></li>
+                            <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href=""><i class="fab fa-snapchat"></i></a></li>
+                        </ul>
+                    </div>
+                    <form action="" method="">
+                        <div class="form-group">
+                            <input type="text" placeholder="Full Name" required>
+                            <input type="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group2">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group2">
+                            <textarea name="" id="" cols="30" rows="10" placeholder="Message" required></textarea>
+                        </div>
+                        <div class="center">
+                            <button type="submit">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="center">
+                    <p>Copyright &copy; Chisom Paul <i class="fa fa-heart"></i> 2024</p>
+                    <p></p>
+                </div>
+            </div>
+        </footer>
+        <!-- back to top -->
+        <div class="back-to-top">
+            <a href="#top"><button title="back to top"><i class='fa fa-arrow-up'></i></button></a>
         </div>
     </div>
+    <script src="js/index2.js"></script>
+    <script src="js/index.js"></script>
 </body>
-<script src="js/index.js"></script>
+
 </html>
